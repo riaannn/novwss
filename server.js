@@ -1,5 +1,5 @@
 import http from "node:http";
-import { server as wisp } from "@mercuryworkshop/wisp-server-node";
+import wisp from "wisp-server-node";
 
 const httpServer = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
